@@ -1,12 +1,22 @@
-const CACHE_NAME = 'firstpwa-v11';
+const CACHE_NAME = 'cats-pwa-v16';
 var urlsToCache = [
   '/',
   '/nav.html',
   '/index.html',
-  '/pages/*',
-  '/css/*',
-  '/js/*',
-  '/img/*',
+  '/favicon.ico',
+  '/pages/black.html',
+  '/pages/home.html',
+  '/pages/orange.html',
+  '/pages/white.html',
+  '/css/materialize.min.css',
+  '/css/styles.css',
+  '/js/materialize.min.js',
+  '/js/nav.js',
+  '/img/black.jpg',
+  '/img/cats-playing.jpg',
+  '/img/orange.jpg',
+  '/img/white.jpg',
+  '/img/logo.png'
 ];
 
 self.addEventListener('install', function(event) {
