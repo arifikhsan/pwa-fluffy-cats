@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cats-pwa-v16';
+const CACHE_NAME = 'cats-pwa-v17';
 var urlsToCache = [
   '/',
   '/nav.html',
