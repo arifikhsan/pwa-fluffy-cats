@@ -1,15 +1,12 @@
-const CACHE_NAME = 'firstpwa-v2';
+const CACHE_NAME = 'firstpwa-v3';
 var urlsToCache = [
   '/',
   '/nav.html',
   '/index.html',
-  '/pages/home.html',
-  '/pages/about.html',
-  '/pages/contact.html',
-  '/css/materialize.min.css',
-  '/js/materialize.min.js',
-  '/js/nav.js',
-  '/img/logo.png'
+  '/pages/*',
+  '/css/*',
+  '/js/*',
+  '/img/*',
 ];
 
 self.addEventListener('install', function(event) {
